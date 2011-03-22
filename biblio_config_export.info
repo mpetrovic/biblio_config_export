@@ -1,0 +1,6 @@
+name = Biblio Config Export
+description = Export Biblio Configuration settings to a Feature
+package = Biblio
+core = 6.x
+dependencies[] = biblio
+dependencies[] = features

@@ -1,0 +1,12 @@
+<?php
+
+function biblio_config_export_features_api() {
+  return array(
+    'biblio_config' => array(
+      'name' => 'Biblio Configuration',
+      'file' => drupal_get_path('module', 'biblio').'/biblio_config_export.features.inc',
+      'default_hook' => 'biblio_config_features_default_settings',
+      'feature_source' => TRUE,
+    ),
+  );
+}
